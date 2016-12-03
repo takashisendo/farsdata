@@ -66,7 +66,6 @@ make_filename <- function(year) {
   full_filename
 }
 
-
 #' Read FARS files for one or more years.
 #'
 #' \code{fars_read_years} produces a list of tibbles of FARS data, given an
@@ -162,6 +161,7 @@ fars_summarize_years <- function(years) {
 #' @param state.num Numerical code for US state.
 #' @param year  An integer, or a string or numeric that can be coerced to a string,
 #'   of the year of interest.
+#' @import mapdata
 #' @return NULL
 #' @examples
 #' fars_map_state(12, 2014)
