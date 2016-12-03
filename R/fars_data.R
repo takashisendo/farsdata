@@ -161,7 +161,6 @@ fars_summarize_years <- function(years) {
 #' @param state.num Numerical code for US state.
 #' @param year  An integer, or a string or numeric that can be coerced to a string,
 #'   of the year of interest.
-#' @import mapdata
 #' @return NULL
 #' @examples
 #' fars_map_state(12, 2014)
@@ -173,6 +172,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
+  library(mapdata)
   filename <- make_filename(year)
   data <- fars_read(filename)
   state.num <- as.integer(state.num)
