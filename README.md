@@ -14,4 +14,4 @@ library(farsdata)
 ```
 ### Travis Badge
 
-put Travis badge here.
+[![Travis-CI Build Status](https://travis-ci.org/tybyers/farsdata.svg?branch=master)](https://travis-ci.org/tybyers/farsdata)
