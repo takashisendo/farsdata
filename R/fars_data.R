@@ -16,7 +16,9 @@
 #' @return This function returns a tibble containing the FARS data. If an
 #'   incorrect filename is entered the function will stop.
 #' @examples
-#' fars_read(filename = 'accident_2013.csv.bz2')
+#' full_filename <- system.file('extdata', 'accident_2013.csv.bz2',
+#'                              package = 'farsdata')
+#' fars_read(filename = full_filename)
 #'
 #' \dontrun{
 #' fars_read(filename = 'filedoesnotexist')
@@ -172,7 +174,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
-  library(mapdata)
+  requireNamespace(mapdata)
   filename <- make_filename(year)
   data <- fars_read(filename)
   state.num <- as.integer(state.num)
