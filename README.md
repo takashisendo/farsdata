@@ -12,6 +12,11 @@ To install this package to run on your system, please first install and load the
 install_github('tybyers/farsdata')
 library(farsdata)
 ```
+
+### Vignette
+
+To get started, read the introduction vignette: `vignette('introduction', package = 'farsdata')`.
+
 ### Travis Badge
 
 [![Travis-CI Build Status](https://travis-ci.org/tybyers/farsdata.svg?branch=master)](https://travis-ci.org/tybyers/farsdata)
