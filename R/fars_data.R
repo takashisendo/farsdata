@@ -165,6 +165,7 @@ fars_summarize_years <- function(years) {
 #'   of the year of interest.
 #' @return NULL
 #' @examples
+#' library(mapdata)
 #' fars_map_state(12, 2014)
 #' fars_map_state(36, 2014)
 #'
@@ -174,7 +175,6 @@ fars_summarize_years <- function(years) {
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
-  requireNamespace(mapdata)
   filename <- make_filename(year)
   data <- fars_read(filename)
   state.num <- as.integer(state.num)

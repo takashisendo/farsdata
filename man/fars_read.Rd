@@ -23,7 +23,9 @@ This function reads data from the  US National Highway Traffic Safety
   to work properly, a filename pointing to an existing file must be given.
 }
 \examples{
-fars_read(filename = 'accident_2013.csv.bz2')
+full_filename <- system.file('extdata', 'accident_2013.csv.bz2',
+                             package = 'farsdata')
+fars_read(filename = full_filename)
 
 \dontrun{
 fars_read(filename = 'filedoesnotexist')

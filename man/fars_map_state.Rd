@@ -23,6 +23,7 @@ This function takes a state number and a year, and draws
   state number is chosen or the chosen year's data does not exist.
 }
 \examples{
+library(mapdata)
 fars_map_state(12, 2014)
 fars_map_state(36, 2014)
 
