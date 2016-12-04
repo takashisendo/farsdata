@@ -160,6 +160,8 @@ fars_summarize_years <- function(years) {
 #'   fatalities for that year.  This function will throw an error if an invalid
 #'   state number is chosen or the chosen year's data does not exist.
 #'
+#'   You must have library(mapdata) loaded in your namespace for this to work.
+#'
 #' @param state.num Numerical code for US state.
 #' @param year  An integer, or a string or numeric that can be coerced to a string,
 #'   of the year of interest.

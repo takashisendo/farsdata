@@ -21,6 +21,8 @@ This function takes a state number and a year, and draws
   a state outline with dots to represent the location of motor vehicle
   fatalities for that year.  This function will throw an error if an invalid
   state number is chosen or the chosen year's data does not exist.
+
+You must have library(mapdata) loaded in your namespace for this to work.
 }
 \examples{
 library(mapdata)
