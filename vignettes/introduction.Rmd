@@ -1,6 +1,6 @@
 ---
 title: "Introduction to farsdata Package"
-author: "Tyler Byers"
+author: "Takashi Sendo"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -83,7 +83,7 @@ For a list of the state ID numbers, see page 26 of the [FARS Analytical User's G
 
 ```{r mapping_crashes}
 library(mapdata)
-fars_map_state(53, 2014)
-fars_map_state(36, 2014)
+fars_map_state(21, 2014)
+fars_map_state(37, 2014)
 ```
 

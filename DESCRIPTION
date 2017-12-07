@@ -2,7 +2,7 @@ Package: farsdata
 Type: Package
 Title: FARS Data Tools
 Version: 0.1.0
-Authors@R: person('Tyler', 'Byers', email = 'tybyers@gmail.com', role = c('aut', 'cre'))
+Authors@R: person('Sendo', 'Takashi', email = 'takashi.sendo@gmail.com', role = c('aut', 'cre'))
 Description: This R package is submitted as the Week 4 final assignment for the 
     "Building R Packages" course on Coursera, as part of the Johns Hopkins 
     University "Mastering Software Development in R" specialization.
