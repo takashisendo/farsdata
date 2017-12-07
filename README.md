@@ -2,7 +2,7 @@
 
 This R package is submitted as the Week 4 final assignment for the "Building R Packages" course on Coursera, as part of the Johns Hopkins University "Mastering Software Development in R" specialization.
 
-Date: Dec 3, 2016 
+Date: Dec 7, 2017 
 
 ### Installation
 
